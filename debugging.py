@@ -1,7 +1,7 @@
 def divisors(num):
     try:
         if num <= 0 :
-            raise ValueError("Ingrese un numero entero positivo mayor a 0")
+            raise ValueError("Ingrese un numero entero positivo mayor a")
         divisors = []
         for i in range(1, num + 1):
             if num % i == 0:
